@@ -3,3 +3,4 @@ number = int(input("Enter a number between 0 and 1000: "))
 
 # convert the number to a 6-digit string with leading zeros
 # print the formatted number
+print(format(number, '06'))
