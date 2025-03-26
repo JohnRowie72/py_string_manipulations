@@ -3,3 +3,4 @@ full_name = input("What is your full name? ")
 
 # convert the full name to pascal casing, capitalizing the first letter of each word
 # print the full name in pascal casing
+print(full_name.title().replace(" ", ""))
